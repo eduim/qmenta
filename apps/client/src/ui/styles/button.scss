@@ -1,0 +1,18 @@
+.button-ui {
+  border-radius: 7px;
+  border: 1px solid transparent;
+  padding: 0.3em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #c0bdbd;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button-ui:hover {
+  border-color: black;
+}
+.button-ui:focus,
+.button-ui:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

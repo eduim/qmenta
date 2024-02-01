@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = {extras = ["standard"], version = "*"}
+fastapi = "*"
+pydantic = "*"
+pytest = "*"
+pydicom = "*"
+python-decouple = "*"
+beanie = "*"
+pydantic-settings = "*"
+email-validator = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+passlib = {extras = ["bycrypt"], version = "*"}
+bcrypt = "*"
+python-multipart = "*"
+requests = "*"
+pillow = "*"
+numpy = "*"
+pylibjpeg = "*"
+pylibjpeg-libjpeg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

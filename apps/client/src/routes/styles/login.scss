@@ -1,0 +1,16 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 0.5rem;
+}
+
+.warning {
+  color: #ffffff;
+  background-color: rgb(210, 107, 107);
+  font-size: 1em;
+  margin: 0;
+  padding: 0.3em 1em;
+  border-radius: 7px;
+  border: 1px solid red;
+}
